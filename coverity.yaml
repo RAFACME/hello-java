@@ -52,18 +52,18 @@ analyze:
       # This is a map from trust option name to boolean to indicate whether the
       # particular trust property should be trusted or distrusted. The trust option
       # "all" controls whether all trust options should be trusted or distrusted.
-    trust:
-      all: false 
+#    trust:
+#      all: false 
 
 # Specifies where the analysis results should be sent.
-commit:
+#commit:
 
   # Coverity Connect configuration to use when committing defects to Coverity
   # Connect.
-  connect:
+#  connect:
 
     # The name of the stream to commit the results to.
-    stream: hello-java
+#    stream: hello-java
 
     # Absolute URL of where to commit the Coverity Connect results.
-    url: http://192.168.56.103:8080
+#    url: http://192.168.56.103:8080
